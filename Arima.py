@@ -30,7 +30,7 @@ st.sidebar.markdown(
 # Home
 if selected == 'Home':
     st.title('Peramalan Jumlah Perjalanan Wisatawan Nusantara ke Kota Surabaya dengan Metode ARIMA')
-    st.write('Peramalan jumlah perjalanan wisatawan Nusantara ke Kota Surabaya menggunakan metode ARIMA...')
+    st.write('Peramalan jumlah perjalanan wisatawan Nusantara ke Kota Surabaya menggunakan metode ARIMA (Autoregressive Integrated Moving Average) merupakan pendekatan yang efektif untuk menganalisis data deret waktu. Metode ini memanfaatkan pola historis data perjalanan wisatawan untuk memprediksi jumlah kunjungan di masa depan. ARIMA terdiri dari tiga komponen utama: AR (Autoregressive), yang menggambarkan hubungan antara data saat ini dan data sebelumnya; I (Integrated), yang membuat data stasioner melalui differencing; dan MA (Moving Average), yang mengaitkan data saat ini dengan error dari lag sebelumnya. Dengan memastikan data stasioner dan memilih parameter model yang tepat, ARIMA mampu memberikan prediksi yang akurat, membantu pemerintah atau pelaku industri pariwisata dalam merencanakan strategi yang lebih baik untuk mengelola kunjungan wisatawan.')
 
 # Data Page
 # Load Data Setelah Perubahan
@@ -91,7 +91,7 @@ if selected == 'Data':
 
 # Perhitungan ARIMA
 if selected == 'Perhitungan ARIMA':
-    st.title('Perhitungan ARIMA untuk Prediksi Jumlah Wisatawan')
+    st.title('Perhitungan ARIMA untuk Prediksi Jumlah Wisatawan ke Kota Surabaya')
 
     try:
         # Load Data
